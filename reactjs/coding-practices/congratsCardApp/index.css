@@ -1,6 +1,6 @@
 /* Write your code here. */
 * {
-  box-sizing: 0px;
+  box-sizing: border-box;
 }
 
 body {

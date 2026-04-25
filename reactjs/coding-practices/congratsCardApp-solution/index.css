@@ -1,5 +1,5 @@
 * {
-  box-sizing: 0px;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,14 +11,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png');
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
   background-size: cover;
   min-height: 100vh;
 }
 
 .heading {
   color: #0f172a;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 32px;
 }
@@ -68,7 +68,7 @@ body {
 
 .card-title {
   color: #1e293b;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 24px;
   margin-top: 24px;
@@ -83,7 +83,7 @@ body {
 .card-description {
   text-align: center;
   color: #1e293b;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 14px;
 }
 
